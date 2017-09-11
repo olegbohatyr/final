@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.ico">
+
+    <link rel="stylesheet" href="libs/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>YourTools</title>
+</head>
+<body>
+    <div class="header-panel">
+        <ul class="panel-user">
+            <li class="panel-icon user__sign">
+                <a href="#">
+                    <svg>
+                        <use xlink:href="img/icon/signin.svg#signin"></use>
+                    </svg>
+                    Вход
+                </a>
+                <ul class="sign__dropdown">
+                    <li><a href="# login.html">Личный Кабинет</a></li>
+                    <li><a href="# regist.html">Регистрация</a></li>
+                </ul>
+            </li>
+            <li class="panel-icon user__favorites">
+                <a href="# favorites.html">
+                    <svg>
+                        <use xlink:href="img/icon/heart.svg#heart"></use>
+                    </svg>
+                    Избранное
+                </a>
+            </li>
+            <li class="panel-icon user__compare">
+                <a href="# compare.html">
+                    <svg>
+                        <use xlink:href="img/icon/compare.svg#compare"></use>
+                    </svg>
+                    Сравнение
+                </a>
+            </li>
+        </ul>
+        <ul class="panel-social">
+            <li class="social-icon social__vk"><a href="https://vk.com"><img src="img/icon/vk.svg" alt="Вконтакте"></a></li>
+            <li class="social-icon social__fb"><a href="https://www.facebook.com"><img src="img/icon/facebook.svg" alt="Facebook"></a></li>
+            <li class="social-icon social__tw"><a href="https://twitter.com"><img src="img/icon/twitter_sign.svg" alt="Twitter"></a></li>
+        </ul>
+    </div>
+    <header id="header">
+        <div class="logo">
+            <img src="img/logo.svg" alt="YourTools Logo">
+            <div class="header-title">
+                <span class="h1">YOUR_TOOLS</span>
+                <span class="sub__h1">unrealizable dreams</span>
+            </div>
+        </div>
+        <div class="search">
+            <div class="info">
+                <a href="tel:+88006845594" class="info__phone">
+                    <svg>
+                        <use xlink:href="img/icon/phone.svg#phone"></use>
+                    </svg>
+                    8 (800) 684-55-94
+                </a>
+                <a href="mailto:+88006845594" class="info__mail">
+                    <svg>
+                        <use xlink:href="img/icon/mail.svg#mail"></use>
+                    </svg>
+                    info@your_tools.ru
+                </a>
+            </div>
+            <div class="search-form">
+                <form action="#">
+                    <input type="search" class="search-input" placeholder="Введите поисковую фразу">
+                    <input type="image" class="search-submit" src="img/icon/search.svg" alt="поиск">
+                </form>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="cart-price">
+                <span>7500 р</span>
+            </div>
+            <div class="cart-count">
+                2
+            </div>
+            <div class="cart-icon">
+                <a href="# cart.html">
+                    <svg class="icon__cart">
+                        <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav class="menu-top">
+        <div class="menu-toggle">
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+        </div>
+        <ul class="menu-items">
+            <li class="menu__item"><a href="#">Главная</a></li>
+            <li class="menu__item"><a href="#">Каталог</a></li>
+            <li class="menu__item"><a href="#">Галерея</a></li>
+            <li class="menu__item"><a href="#">Акции</a></li>
+            <li class="menu__item"><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="wrap">
+        <aside class="aside">
+            <nav class="category-menu">
+                <h4 class="category-menu__h4">Категории</h4>
+                <ul class="category-menu__list">
+                    <li class="list__item">
+                        <svg class="icon__home">
+                            <use xlink:href="img/icon/home.svg#home"></use>
+                        </svg>
+                        <a href="#">
+                            Инструменты
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__heart">
+                            <use xlink:href="img/icon/heart.svg#heart"></use>
+                        </svg>
+                        <a href="#">
+                            Расходные материалы и принадлежности
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__group">
+                            <use xlink:href="img/icon/group.svg#group"></use>
+                        </svg>
+                        <a href="#">
+                            Оборудование
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__calendar">
+                            <use xlink:href="img/icon/calendar.svg#calendar"></use>
+                        </svg>
+                        <a href="#">
+                            Ручной инструмент
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__cog">
+                            <use xlink:href="img/icon/cog.svg#cog"></use>
+                        </svg>
+                        <a href="#">
+                            Электромонтажное оборудование
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__papir">
+                            <use xlink:href="img/icon/paper_clip.svg#paper_clip"></use>
+                        </svg>
+                        <a href="#">
+                            Наборы инструментов
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__star">
+                            <use xlink:href="img/icon/star.svg#star"></use>
+                        </svg>
+                        <a href="#">
+                            Строительный крепеж
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <svg class="icon__cloud">
+                            <use xlink:href="img/icon/cloud.svg#cloud"></use>
+                        </svg>
+                        <a href="#">
+                            Дверная фурнитура
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="banners">
+                <a href="#"><img src="img/banner1.jpg" alt="Баннер1"></a>
+                <a href="#"><img src="img/banner2.jpg" alt="Баннер2"></a>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="slider">
+                <div class="slide">
+                    <div class="image-slider"><img src="img/slide1.jpg" alt=""></div>
+                    <div class="text-slider">
+                        <h2 class="slider__h3">Makita</h2>
+                        <span>Новая Cерия инструмента</span>
+                        <p>Это и многое другое существенно облегчит Вам роботу на участке, сделает ее приятнее</p>
+                        <a href="# product/makita.html" class="slide-add">купить сейчас</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="image-slider"><img src="img/slide2.jpg" alt=""></div>
+                    <div class="text-slider">
+                        <h2 class="slider__h3">Bosch</h2>
+                        <span>Новая Cерия инструмента</span>
+                        <p>Это и многое другое существенно облегчит Вам роботу на участке, сделает ее приятнее</p>
+                        <a href="# product/bosch.html" class="slide-add">купить сейчас</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="image-slider"><img src="img/slide3.jpg" alt=""></div>
+                    <div class="text-slider">
+                        <h2 class="slider__h3">DeWalt</h2>
+                        <span>Новая Cерия инструмента</span>
+                        <p>Это и многое другое существенно облегчит Вам роботу на участке, сделает ее приятнее</p>
+                        <a href="# product/dewalt.html" class="slide-add">купить сейчас</a>
+                    </div>
+                </div>
+            </div>
+            <div class="special">
+                <div class="sell">
+                    <h3 class="sell__h3">
+                        <svg class="icon__credit">
+                            <use xlink:href="img/icon/credit_card.svg#credit_card"></use>
+                        </svg>
+                        Продажа
+                    </h3>
+                    <p>Широкий ассортимент моделей</p>
+                </div>
+                <div class="discounts">
+                    <h3 class="discounts__h3">
+                        <svg class="icon__thumbs_up">
+                            <use xlink:href="img/icon/thumbs_up_alt.svg#thumbs_up_alt"></use>
+                        </svg>
+                        Скидки
+                    </h3>
+                    <p>Невообразимо низкие цены</p>
+                </div>
+                <div class="shares">
+                    <h3 class="shares__h3">
+                        <svg class="icon__gifs">
+                            <use xlink:href="img/icon/gift.svg#gift"></use>
+                        </svg>
+                        Акции
+                    </h3>
+                    <p>Широкий ассортимент моделей</p>
+                </div>
+            </div>
+            <section class="news">
+                <h4>Новинки</h4>
+                <div class="product-wrap">
+                    <div class="product product__news">
+                        <div class="circle circle-new">new</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__news">
+                        <div class="circle circle-new">new</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__news">
+                        <div class="circle circle-new">new</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__news">
+                        <div class="circle circle-new">new</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="section shares-item">
+                <h4>Товары со скидкой</h4>
+                <div class="product-wrap">
+                    <div class="product product__shares">
+                        <div class="circle circle-share">-10%</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__shares">
+                        <div class="circle circle-share">-10%</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__shares">
+                        <div class="circle circle-share">-10%</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product product__shares">
+                        <div class="circle circle-share">-10%</div>
+                        <div class="image">
+                            <img src="img/product.png" alt="">
+                        </div>
+                        <div class="title-product">makita</div>
+                        <div class="price-product">35 000р</div>
+                        <div class="buttons_cart">
+                            <div class="addcart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/shopping_cart.svg#shopping_cart"></use>
+                                </svg>
+                                в коризу
+                            </div>
+                            <div class="quick-cart">
+                                <svg class="icon__cart">
+                                    <use xlink:href="img/icon/bolt.svg#bolt"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="logo logo__footer">
+            <img src="img/logo-copy.svg" alt="">
+            <div class="header-title">
+                <span class="h1">YOUR_TOOLS</span>
+                <span>unrealizable dreams</span>
+            </div>
+        </div>
+        <div class="menu-footer">
+            <h5>Меню</h5>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">Акции</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="footer-pay">
+            <h5>Способы оплаты</h5>
+            <ul>
+                <li><a href="#">Наличнымиs</a></li>
+                <li><a href="#">Visa или Mastercard</a></li>
+                <li><a href="#">В кредит</a></li>
+
+            </ul>
+        </div>
+        <div class="contact">
+            <h5>Контактная информация</h5>
+            <ul>
+                <li>Телефон: 8 (499) 654-98-79</li>
+                <li> E-mail: info@your_tools.ru</li>
+                <li>Адрес: г. Москва Фантастический</li>
+                <li>проезд д.234</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copy">
+        © Your_Tools 2017
+    </div>
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/slick-carousel/slick/slick.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

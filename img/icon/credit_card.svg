@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="64" >
+    <symbol id="credit_card" viewBox="0 0 69 64">
+        <path d="M63 4.6q2.2 0 4 1.7t1.6 4v43.4q0 2.4-1.7 4t-4 1.7H5.6q-2.3 0-4-1.6t-1.7-4V10.2q0-2.4 1.7-4t4-1.7H63zM5.6 9q-.5 0-.8.5t-.4.8v8H64v-8q0-.5-.3-.8T63 9H5.6zM63 55q.3 0 .7-.5t.3-.8V32H4.6v21.7q0 .5.3.8t.7.4H63zM9 50.2v-4.6h9.3v4.6H9zm14 0v-4.6h13.6v4.6H23z"/>
+    </symbol>
+</svg>
